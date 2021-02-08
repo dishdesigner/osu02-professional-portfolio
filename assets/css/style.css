@@ -1,0 +1,107 @@
+/************* CSS GLOBAL VARIABLES **************/
+
+:root { /* COLOR PALETTE VARIABLES */
+    --color-primary: #f6ba13;
+    --color-primary-shade: #815f00;
+    --color-primary-tint: #ffdb77;
+    --color-gray-8: #030303;
+    --color-gray-5: #8d8d8d;
+    --color-gray-3: #c4c4c4;
+    --color-gray-1: #f5f4f0;
+    --color-rubine: #83243c;
+}
+
+:root { /* TYPOGRAPHY VARIABLES */
+    --maxTextBlockWidth: 70ch;
+}
+
+/* HOST FONT LOCALLY vs GOOGLE FONTS */
+/* @font-face {
+    font-family: 'Recursive';
+    src: url("../fonts/Recursive.woff2") format("woff2");
+    font-variation-settings: 'slnt' -15 0, 'wght' 300 1000, 'CASL' 0 1, 'CRSV' 0 1,'MONO' 0 1;
+    font-display: swap;
+} */
+
+
+/**************** GENERAL STYLES ****************/
+
+header {
+
+}
+
+header img {
+    width: 4em;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer {
+
+}
+
+/************ MAIN SECTION STYLES ************/
+#ethos {
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--maxTextBlockWidth);
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#works {
+
+}
+
+#contact {
+
+}
+
+/***************** TYPOGRAPHY *****************/
+
+/* Responsive Sizing: Try "CSS Locks" */
+/* font-size: calc(16px + 2 * ((100vw - 320px) / 680)); */
+
+/* Responsive Sizing: Try "CSS Clamp" */
+/* font-size: clamp(100%, 1rem + 2vw, 24px); */
+
+html {
+    /* font grows 1px beyond user default size (usually 16px) for every 100px of viewport width */
+    font-size: calc(1.0em + 1vw);
+    /* leading grows along with font, starting 10% beyond point size plus 0.5px per 100px of the viewport width */
+    line-height: calc(1.1em + 0.5vw);
+    /* use only one variable font family for entire site! */
+    font-family: 'Recursive', sans-serif, monospace;
+    text-align: left;
+}
+
+
+h1 {
+    font-variation-settings: 'slnt' -15, 'wght' 600, 'CASL' 1, 'CRSV' 1,'MONO' 0;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+nav a {
+
+}
+
+p {
+    font-variation-settings: 'slnt' -10, 'wght' 300, 'CASL' 1, 'CRSV' 1, 'MONO' 0;
+}
+
+
+

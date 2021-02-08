@@ -36,8 +36,8 @@ Displaying a clear and compelling aesthetic that is coupled with technical execu
 ## Screenshot(s)
 
 ??????????????????????????????????????????????????? ADD THIS SCREENSHOT WHEN FINISHED
-* [Portfolio solution landing page](https://dishdesigner.github.io/professional-portfolio/assets/Screenshot.gif)
-* [Demo image from project criteria](https://dishdesigner.github.io/professional-portfolio/assets/Demo.gif)
+* [Portfolio solution landing page](https://dishdesigner.github.io/professional-portfolio/assets/images/Screenshot.gif)
+* [Demo image from project criteria](https://dishdesigner.github.io/professional-portfolio/assets/images/Demo.gif)
 
 ---
 ## Installation
